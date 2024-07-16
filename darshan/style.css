@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url("assets/img/bg_files/bg.jpg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200,100vw);
+    height:80vh;
+    position: relative;
+   
+}
+
+.main .box{
+    width:80vh;
+    height: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
